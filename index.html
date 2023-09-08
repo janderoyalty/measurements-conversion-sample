@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="//unpkg.com/brain.js" defer></script>
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="initial-box">
+    <div><b>Initial</b></div>
+    <div>Handful: 1</div>
+    <div>Tablespoons: 2</div>
+  </div>
+  <div id="conversion-box">
+    <div><b>Current Conversion</b></div>
+    <div>Handful: <span id="current-conversion-handful">1</span></div>
+    <div>Tablespoon: <span id="current-conversion-tbsp">2</span></div>
+  </div>
+  <div id="input-box">
+    <div><b>User Input Conversion</b></div>
+    <div class="input-conversion-handful">Handful: <input type="text" id="handful" name="handful"></div>
+    <div class="input-conversion-tbsp">Tablespoons: <input type="text" id="tbsp" name="tbsp"></div>
+    <div id="input-submit-button"><button type="submit">Submit</button></div>
+  </div>
+
+</body>
+</html>

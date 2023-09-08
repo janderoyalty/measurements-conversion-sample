@@ -1,0 +1,22 @@
+#initial-box{
+    background-color: beige;
+  }
+  #conversion-box{
+    background-color:lightblue;
+  }
+  #input-box{
+    background-color:thistle;
+  }
+
+  #initial-box, #conversion-box, #input-box{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .input-conversion-handful, .input-conversion-tbsp {
+    display: inline-block;
+  }
